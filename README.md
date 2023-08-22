@@ -109,9 +109,9 @@ Or you can run your Ragger functional tests if you have implemented them :
 bash$ python -m virtualenv venv --system-site-package
 bash$ source ./venv/bin/activate
 # Install tests dependencies
-(venv) bash$ pip install -r tests/requirements.txt
+(venv) bash$ pip install -r tests/python/requirements.txt
 # Run ragger functional tests
-(venv) bash$ python -m pytest tests/ --tb=short -v --device nanos --display
+(venv) bash$ python -m pytest tests/python/ --tb=short -v --device nanos --display
 ```
 
 ## Load the app on a physical device
